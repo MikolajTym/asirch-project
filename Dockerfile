@@ -1,5 +1,5 @@
 # Użyj oficjalnego obrazu Pythona jako obrazu bazowego
-FROM python:3.12-slim-buster
+FROM python:3.12.10-slim-bullseye
 
 # Ustaw katalog roboczy wewnątrz kontenera
 WORKDIR /app
