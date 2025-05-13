@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Zdefiniuj polecenie do uruchomienia aplikacji Flask
-CMD ["python", "app.py", "--host", "0.0.0.0", "--port", "5000"]
+CMD ["python", "main.py"]
