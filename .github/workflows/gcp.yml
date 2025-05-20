@@ -24,3 +24,5 @@ jobs:
 
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
+
+    - run: gcloud app deploy
