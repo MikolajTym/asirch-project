@@ -1,5 +1,12 @@
+name: GCP deploy
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  job_id:
+  build:
 
     steps:
     - name: Checkout repo
