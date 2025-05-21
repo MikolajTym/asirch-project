@@ -15,7 +15,7 @@ jobs:
 
     - uses: 'google-github-actions/auth@v2'
       with:
-        credentials_json: '${{ secrets.C3PO_KEY }}' # Replace with the name of your GitHub Actions secret
+        credentials_json: '${{ secrets.GCP }}' # Replace with the name of your GitHub Actions secret
     
     - name: 'Set up Cloud SDK'
       uses: 'google-github-actions/setup-gcloud@v2'
